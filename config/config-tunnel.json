@@ -1,0 +1,39 @@
+{
+  "listenAddr":"0.0.0.0:8888",
+
+  "socks": {
+    "enable": true,
+    "addr": "127.0.0.1:9050"
+  },
+
+  "tunnel": {
+    "listenAddr":"192.168.56.103:8888",
+    "nodes": [
+      {
+        "type":"ssh",
+        "host": "192.168.56.101:22",
+        "username": "user",
+        "password": "user"
+      },
+      {
+        "type":"ssh",
+        "host": "192.168.56.102:22",
+        "username": "user",
+        "password": "user"
+      },
+      {
+        "type":"ssh",
+        "host": "192.168.56.103:22",
+        "username": "user",
+        "password": "user"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
